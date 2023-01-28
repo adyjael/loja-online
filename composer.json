@@ -1,0 +1,22 @@
+{
+    "name": "adyja/projetofinal",
+    "description": "Projeto final desenvolvido no curso de WEB Development master D",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Adyjael neto",
+            "email": "adyjaelneto399@gmail.com"
+        }
+    ],
+    "require": {
+        "coffeecode/router": "^2.0",
+        "symfony/var-dumper": "^6.2"
+    }
+}
